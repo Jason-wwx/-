@@ -43,7 +43,8 @@ public class MainActivity extends AppCompatActivity {
 
     private String welcome[];
     private static final String WEB_SITE = "http://www.tuling123.com/openapi/api";
-    private static final String KEY = "3e7ac6cff6b64a7d939d09a6d6c29642";
+    private static final String KEY = "ec3cff2c300048a2b11ed63c0180b3cd";
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

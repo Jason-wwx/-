@@ -37,9 +37,9 @@ public class ChatAdapter extends BaseAdapter {
         ViewHolder viewHolder=new ViewHolder();
         ChatBean chatBean = chatBeanList.get(position);
             if (chatBean.getState()==ChatBean.SEND){
-                convertView=View.inflate(context,R.layout.list_item_right,null);
-            }else {
                 convertView=View.inflate(context,R.layout.list_item_left,null);
+            }else {
+                convertView=View.inflate(context,R.layout.list_item_right,null);
             }
             viewHolder.tvContent=convertView.findViewById(R.id.tv_chat_content);
             viewHolder.tvContent.setText(chatBean.getMessage());
